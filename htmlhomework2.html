@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Three New Tags</title>
+		<style>
+			h1 {text-align: center;}
+			h1 {color: #9a96ff;}
+			h2 {text-align: center;}
+			h2 {color: #9a96ff;}
+			body {background-color: #150a2b;}
+			p {color: white;}
+			details {color: white;}
+			address {color: #9a96ff;}
+		</style>
+	</head>
+	<body>
+		<h1>Three New HTML Tags</h1>
+		<h2>Tag 1: Details tag (< details > < /details >)</h2>
+		<details>
+			<summary>The main purpose of this tag is to allow people to hide or show information on demand. 
+					If you click the triangle on the left side of the webpage, you will reveal
+					more information that is hidden from you by default.</summary>
+			<p>
+				This tag is very useful to keep webpages clean without all of this text being shown
+				in front of you at once. <br><br> To use this tag, you have to type it into the HTML body and then 
+				within the tag, you can write a summary tag, which is essentially the title for the details,
+				and after that comes a paragraph tag, which you can type just like any other paragraph tag.
+				Like other tags, detail tags could also be used with CSS to change colors.
+			</p>
+			<details>
+				<summary>An example of code for a details tag:</summary>
+				<p>
+					< details ><br>
+						&emsp;< summary>Summary of details< /summary> <br>
+						&emsp;< p> This information is hidden by default< /p> <br>
+					< /details>
+				</p>
+			</details>
+		</details>
+		<p>
+			I got information about this tag from <a href="https://www.w3schools.com/tags/tag_details.asp">W3 Schools</a>, which is a very good source for help with HTML and its tags.
+		</p>
+		<hr>
+		<h2>Tag 2: Address tag (< address>< /address>)</h2>
+			<p>The main purpose of the address tag is for people to display contact information
+				anywhere in their webpage. An example with my contact information could be seen below.
+			</p>
+			<address>
+				Email: np0481059@student.luzerne.edu<br>
+				Cell Phone: (570)-555-4716
+			</address>
+			<br>
+			<details>
+				<summary>The code used to display this information:</summary>
+				<p>
+					< address><br>
+						&emsp;Email: np0481059@student.luzerne.edu< br><br>
+						&emsp;Cell Phone: (570)-555-4716<br>
+					< /address>
+			</details>
+			<p>
+				The text is light blue because, like the details tag, this tag could
+				also be used with CSS to change colors.. However, the contact information is also 
+				italicized by the tag itself so that people know that it is contact information."
+				<br><br>
+				I got information about this tag from the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address">MDN Web Docs</a> from Mozilla, a company well-known for 
+				their Firefox web browser.
+			</p>
+		<hr>
+		<h2>Tag 3: Video tag (< video>< /video>)</h2>
+			<p>
+				Being introduced with HTML5 in 2008, this tag allows people to view videos on webpages
+				without having to go directly to the video's link.
+			</p>
+			<p>For example, below you can see a beautiful blue sky and some trees.</p>
+				<video width="640" height="480" src="https://ia600701.us.archive.org/11/items/Flickr-5971166253/sky-5971166253.mp4" controls>
+				</video>
+				<br>
+				<details>
+					<summary>This could be done with the following line of code:</summary>
+					<p>
+						< video width="640" height="480" src="https://ia600701.us.archive.org/11/items/Flickr-5971166253/sky-5971166253.mp4" controls>< /video>
+					</p>
+				</details>
+			<br>
+			<p>
+				This video is played in a resolution of 640x480 as indicated in the code.
+				You could switch to full screen, set the playback speed, and even
+				download the video to your own device. Usually, you could also change the
+				volume, but since this video does not have audio, it is greyed out.
+				<br><br>
+				This is all because of the 'controls' command being used at the end of the tag. Without
+				this command, the video would only be shown as a still image with a 640x480 resolution. 
+				In order for this tag to work, it also has to have a direct link to a video in the anchor tag, 
+				which means that YouTube videos cannot be used. There is a more advanced embed tag for those videos.
+				<br><br>
+				I got information about this tag from <a href="https://html.com/tags/video/">HTML.com</a>, another
+				great website for learning HTML.</a>
+			</p>
+			<hr>
+	</body>
+</html>
